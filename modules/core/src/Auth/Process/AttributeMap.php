@@ -102,6 +102,7 @@ class AttributeMap extends Auth\ProcessingFilter
         /** @psalm-var mixed|null $attributemap */
         $attributemap = null;
         include($filePath);
+        include_once($filePath);
         if (!is_array($attributemap)) {
             throw new Exception('Attribute map file "' . $filePath . '" didn\'t define an attribute map.');
         }
