@@ -242,7 +242,7 @@ class Simple
 
         if (isset($state['ReturnCallback'])) {
             call_user_func($state['ReturnCallback'], $state);
-            Assert::true(false);
+            return; // replace Assert::true(false)
         } else {
             $params = [];
             if (isset($state['ReturnStateParam']) || isset($state['ReturnStateStage'])) {
