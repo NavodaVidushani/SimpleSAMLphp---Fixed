@@ -162,6 +162,7 @@ class AttributeAlter extends Auth\ProcessingFilter
                     }
 
                     if ($this->subject === $this->target) {
+                        unset($value)
                         $value = $new_value;
                     } elseif ($this->merge === true) {
                         $attributes[$this->target] = array_values(
