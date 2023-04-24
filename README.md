@@ -30,3 +30,6 @@ After reviewing the "Issues" page on GitHub and executing the application in son
 
 In addition, we have added an OAuth feature to the application to accommodate future implementation suggestions from customers. Therefore, we have developed a simple web page for contributors to upload content to our Google Drive. 
 The team members have also developed fixes and recommended security procedures to be used when addressing the aforementioned issues, and we have integrated the OAuth part to further secure file uploads.
+
+
+Link to a YouTube video - https://youtu.be/mq7DfWeZLhE
